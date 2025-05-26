@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Fronted Simple</title>
+
+</head>
+<body> 
+    <h2 style="text-align:center;">Formulario de Cotización</h2>
+    <form action="/cotizacion" method="POST">
+        <label for="nombre">Nombre del cliente:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="servicio">Tipo de servicio:</label>
+        <select id="servicio" name="servicio" required>
+            <option value="constitucion">Constitución de empresa</option>
+            <option value="laboral">Defensa laboral</option>
+            <option value="tributaria">Consultoría tributaria</option>
+        </select>
+
+        <label for="descripcion">Descripción del caso:</label>
+        <textarea id="descripcion" name="descripcion" rows="5" required></textarea>
+
+        <button type="submit">Generar Cotización</button>
+    </form>
+</body>
+</html>
