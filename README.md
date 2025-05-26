@@ -9,7 +9,7 @@
 - Activar el entorno virtual con source ven/Scripts/activate
 - Acceder a http://127.0.0.1:5000/
 - Completar formulario de cotización y presionar el boton, mostrara el JSON con los datos.
-- [Explicar funcionalidades implementadas]
+- FUNCIONALIDADES:
 - Funcionalidad 1: Generacion de cotizacion automatizadas
 - Sea agrego un formulario, lo que genera el numero unico de cotizacion, el precio segun servicio, y fehca automatica.
 - Se almacena en SQLite.
@@ -21,9 +21,7 @@
 -https se despliega en servicios como render.
 
 ## APIs utilizadas
-- [Mencionar API de IA usada]
 - La Api usada fue extraida de OpenRouter 
 
 ## Funcionalidades bonus
-- [Listar lo que implementaste extra]
 -El sitio web es responsivo, para moviles.
